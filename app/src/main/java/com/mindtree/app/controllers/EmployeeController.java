@@ -22,7 +22,7 @@ public class EmployeeController {
 	private EmployeeService employeeService;
 	
 
-	@RequestMapping("/new")
+	@RequestMapping("/")
 	public String newCustomerForm(Map<String, Object> model) {
 	    Employee employee = new Employee();
 	    model.put("employee",employee);
