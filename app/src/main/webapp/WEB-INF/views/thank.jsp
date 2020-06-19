@@ -20,7 +20,7 @@
 
 <script>
 setTimeout(function(){
-   window.location.href = 'http://localhost:8080/new';
+   window.location.href = '/';
 }, 5000);
 </script>
 
